@@ -1,14 +1,14 @@
-class ZCLASS100 definition
-  public
-  final
-  create public .
+CLASS ZCLASS100 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+    INTERFACES if_oo_adt_classrun.
 ENDCLASS.
 
-
-
-CLASS ZCLASS100 IMPLEMENTATION.
+CLASS ZCLASS100  IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+    out->write( 'Hello World' ).
+  ENDMETHOD.
 ENDCLASS.
